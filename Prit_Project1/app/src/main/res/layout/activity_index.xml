@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".IndexActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/jaguarlogo"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="349dp"
+            android:fontFamily="cursive"
+            android:text="Life. It’s not about figures. It’s about feelings. The moments that feed your soul. The occasions that take your breath away. The instances that leave you speechless. These are the moments we live for.   That’s why our designers and engineers at Jaguar develop a blend of responsive performance that gets your pulse racing, dramatic design that makes you stop and stare and a sense of theatre that stirs your emotions.   Our cars are a manifestation of our passion.  Performance that cannot be measured, only felt.  That’s why we call it art."
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/productsBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="Jaguar"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="8sp"
+            android:text="Explore Cars"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:typeface="serif"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
